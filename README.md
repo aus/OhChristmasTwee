@@ -1,8 +1,6 @@
 # @OhChristmasTwee
 
-You can find a write up of how this all works here:
-
-(http://www.austinrobertson.com/projects)
+You can find a write up of how this all works [here](http://www.austinrobertson.com/projects)
 
 You will have to customize the following settings in ohchristmastwee.py
 
