@@ -31,11 +31,11 @@ TWEETS              = ['Hey @%s! Jingle bell time is a swell time to be %s. %s',
                        '@%s reads, "Twas the night before Christmas. Lights %s, shining a bright! %s',
                        'On the 1st day of Christmas, my true love @%s gave to me, %s in my Christmas Tree. %s',
                        '@%s sings, "Rudolph the %s nosed, Reindeer." %s',
-                       '@%s makes my color %s. Pa rum pum pum pum." %s',
+                       '@%s makes my color %s. Pa rum pum pum pum. %s',
                        '@%s is dreaming of a %s Christmas. %s',
 		       'Grandma and @%s got ran over by %s reindeer. %s',
                        'Oh Holy Night, @%s! The stars are brightly %s. %s',
-		       '%s decked the halls with boughs of %s. Fa la la la la, la la la la. %s']
+		       '@%s decked the halls with boughs of %s. Fa la la la la, la la la la. %s']
 
 # NOTE: Modifying these values can get you out of sync of the cheer light network.         
 # if(modified): CHRISTMAS_SPIRIT = 0                 
