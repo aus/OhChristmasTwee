@@ -142,7 +142,8 @@ try:
             print '*** New color command(s) found!'
             send_cmds(cmds)
             if (ENABLE_TWITTER_BOT):
-                tweet_it(cmds, tweet['user']['screen_name'])
+            	if(tweet['user']['screen_name'] != TW_USERNAME):   # Do not @reply self
+                    tweet_it(cmds, tweet['user']['screen_name'])
         else:
             print '*** No color commands found.'
 except KeyboardInterrupt:
